@@ -13,6 +13,7 @@
 		B3BEF40B2BCAFC8E0029C536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BEF40A2BCAFC8E0029C536 /* Preview Assets.xcassets */; };
 		B3BEF4162BCAFDCD0029C536 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BEF4152BCAFDCD0029C536 /* Card.swift */; };
 		B3BEF4182BCB0C9F0029C536 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BEF4172BCB0C9F0029C536 /* FlipView.swift */; };
+		B3BEF41D2BCB22390029C536 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BEF41C2BCB22390029C536 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B3BEF40A2BCAFC8E0029C536 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3BEF4152BCAFDCD0029C536 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B3BEF4172BCB0C9F0029C536 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		B3BEF41C2BCB22390029C536 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				B3BEF4032BCAFC8D0029C536 /* AnkiApp.swift */,
-				B3BEF4152BCAFDCD0029C536 /* Card.swift */,
-				B3BEF4172BCB0C9F0029C536 /* FlipView.swift */,
 				B3BEF4052BCAFC8D0029C536 /* ContentView.swift */,
+				B3BEF4172BCB0C9F0029C536 /* FlipView.swift */,
+				B3BEF4152BCAFDCD0029C536 /* Card.swift */,
 				B3BEF4072BCAFC8E0029C536 /* Assets.xcassets */,
 				B3BEF4092BCAFC8E0029C536 /* Preview Content */,
+				B3BEF41C2BCB22390029C536 /* File.swift */,
 			);
 			path = Anki;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BEF41D2BCB22390029C536 /* File.swift in Sources */,
 				B3BEF4062BCAFC8D0029C536 /* ContentView.swift in Sources */,
 				B3BEF4182BCB0C9F0029C536 /* FlipView.swift in Sources */,
 				B3BEF4162BCAFDCD0029C536 /* Card.swift in Sources */,

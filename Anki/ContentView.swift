@@ -49,7 +49,8 @@ struct ContentView: View {
                             FlipView(card: card)
                         }
                     }
-                }.padding(.vertical, 20)
+                    .padding()
+                }.padding(.top, 20) // Controls the distance between the LazyVGrid and the button "Add"
             }
         }
     }
