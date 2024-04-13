@@ -14,6 +14,7 @@ struct AnkiApp: App {
         WindowGroup {
             ContentView()
         }
+        // Configura el contenedor del modelo para el tipo 'Card'.
         .modelContainer(for: Card.self)
     }
 }
